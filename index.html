@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Bryan Stiven Rosillo Guayanay">
+    <link rel="icon" type="image/png" href="/Recursos/Imagenes/iconoVentana.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>¡Hola! Soy Bryan</title>
@@ -11,30 +12,48 @@
 <body>
     <main>
         <div id="parteSuperior">
+            <img src="/Recursos/Imagenes/iconoSuperior.png" alt="iconoPersona" id="iconoSuperior">
             <ul>
-                <li>Acerca de mi</li>
-                <li>Estudios</li>
-                <li>Experiencia</li>
-                <li>Contacto</li>
+                <li><a href="#acercaDe">Acerca de mí</a></li>
+                <li><a href="">Estudios</a></li>
+                <li><a href="">Experiencia</a></li>
+                <li><a href="">Contacto</a></li>
             </ul>
         </div>
+
         <div id="bienvenida">
-            <h1>¡Hola!</h1>
+            <div id="mensajeBienvenida">
+                <h1>¡Hola!</h1>
+                <h2>Te doy la gracias por visitar este sitio</h2>
+            </div>
+            <div></div>
+
         </div>
+
         <div id="acercaDe">
-            <h1>Acerca de mi</h1>
-            <p>Mucho gusto, soy Bryan Rosillo. Me dedico a la ingeniería de software.
-                Es decir, me encanta todo lo que tenga que ver con ello, desde su diseño,
-                pasando por su elaboración, hasta su mantenimiento.
-            </p>
-            <p>
-                Por otro lado, también me suele interesar el dibujo y pintura. Además, adoro mucho el rock indie, siento que puedo escucharlo todo el tiempo.
-            </p>
-            <p>
-                Respecto a mis comportamientos...
-                Suelo ser medianamente perfeccionista. Quiero decir, tiendo a que las cosas que hago sean lo más correctas posibles, y que todo tenga que cuadrar como debe ser. 
-                Y otra cosa, quizá no tan buena, es que no hablo mucho, la timidez me suele ganar.
-            </p>
+            <div id="mensajeAcercaDe">
+                <h1>Acerca de mí</h1>
+                <p>Mucho gusto, soy Bryan Rosillo. Me dedico a la ingeniería de software.
+                    Es decir, me encanta todo lo que tenga que ver con ello, desde su diseño,
+                    pasando por su elaboración, hasta su mantenimiento.
+                </p>
+                <p>
+                    Por otro lado, también me suele interesar el dibujo, la pintura y la fotografía. Además, adoro mucho el rock alternativo-indie, siento que puedo escucharlo todo el tiempo.
+                </p>
+                <p>
+                    Respecto a mis comportamientos...
+                    Suelo ser medianamente perfeccionista. Quiero decir, tiendo a que las cosas que hago sean lo más correctas posibles, y que todo tenga que cuadrar como debe ser. 
+                    Y otra cosa, quizá no tan buena, es que no hablo mucho, la timidez me suele ganar.
+                </p>
+            </div>
+            
+            <img src="/Recursos/Imagenes/fotoPersonal.jpg" alt="imagen personal" id="imagenPersonal">
+
+            <div id="fotosAcercaDe">
+                <img src="/Recursos/Imagenes/foto01.jpg" alt="foto de un lindo paisaje" id="imagen01">
+                <img src="/Recursos/Imagenes/fotoTK.png" alt="foto del mejor albúm del mundo" id="imagenTK">
+            </div>
+
         </div>
         <div id="estudios">
             <h1>Estudios</h1>
