@@ -1,3 +1,8 @@
+/****************CLASES GENERALES****************/
+.titulo{
+    color: #06052b;
+}
+
 /*-------------------PARTE SUPERIOR----------------*/
 ul{
     margin: 0px;
@@ -68,7 +73,7 @@ background: linear-gradient(90deg, rgba(7,9,73,1) 1%, rgba(15,106,128,1) 85%);
 @keyframes mover {
     0%{transform: translateY(20px);}
     50%{transform: translateY(0px);}
-    100%{transform: translateY(2 0px);}
+    100%{transform: translateY(20px);}
 }
 
 @keyframes cambiarColor {
@@ -82,7 +87,7 @@ background: linear-gradient(90deg, rgba(7,9,73,1) 1%, rgba(15,106,128,1) 85%);
 /*--------------ACERCA DE MÍ-----------------*/
 #acercaDe{
     width: 100%;
-    height: 500px;
+    height: 520px;
     background-color: aquamarine;
     padding: 33px;
     display: flex;
@@ -102,8 +107,8 @@ background: linear-gradient(90deg, rgba(7,9,73,1) 1%, rgba(15,106,128,1) 85%);
 
 
 #imagenPersonal{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     position:relative;
     top: 50px;
 }
@@ -119,6 +124,137 @@ background: linear-gradient(90deg, rgba(7,9,73,1) 1%, rgba(15,106,128,1) 85%);
     position: relative;
     left: 70px;
 }
+
+/*----------------ESTUDIOS-----------------*/
+#estudios{
+    width: 100%;
+    height: 550px;
+    padding: 33px;
+    background-color: #120a5a;
+    
+}
+
+#estudios h1{
+    color: antiquewhite;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+#grupoItems01{
+    display: flex;
+    justify-content: space-around;
+}
+
+#grupoItems01 div{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    background-color: rgb(155, 152, 202);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+
+}
+
+#estudios img{
+    width: 260px;
+    height: 260px;
+    
+}
+
+
+/*-----------------EXPERIENCIA----------------*/
+#experiencia{
+    width: 100%;
+    height: 630px;
+    padding: 33px;
+    background-color: #054b6b;
+}
+
+#experiencia h1{
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+#experiencia img{
+    width: 100px;
+    height: 100px;
+}
+
+#grupoItems02{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.tecnologias{
+    height: 100%;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(8, 39, 124);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#textoExperiencia{
+    background-color: rgb(83, 142, 160);
+    border-radius: 20px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*-------------------CONTACTO----------------------*/
+
+#contacto{
+    width: 100%;
+    height: 400px;
+    padding: 33px;
+    background-color: rgb(127, 187, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+}
+
+#contacto img{
+    width: 100px;
+    height: 100px;
+}
+
+#contacto div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*------------------------FOOTER-------------------------*/
+footer{
+    width: 100%;
+    height: 50px;
+    background: rgb(15,106,128);
+    background: linear-gradient(90deg, rgba(15,106,128,1) 1%, rgba(7,9,73,1) 85%);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 
 

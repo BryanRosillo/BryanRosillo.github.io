@@ -15,9 +15,9 @@
             <img src="/Recursos/Imagenes/iconoSuperior.png" alt="iconoPersona" id="iconoSuperior">
             <ul>
                 <li><a href="#acercaDe">Acerca de mí</a></li>
-                <li><a href="">Estudios</a></li>
-                <li><a href="">Experiencia</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="#estudios">Estudios</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </div>
 
@@ -32,7 +32,7 @@
 
         <div id="acercaDe">
             <div id="mensajeAcercaDe">
-                <h1>Acerca de mí</h1>
+                <h1 class="titulo">Acerca de mí</h1>
                 <p>Mucho gusto, soy Bryan Rosillo. Me dedico a la ingeniería de software.
                     Es decir, me encanta todo lo que tenga que ver con ello, desde su diseño,
                     pasando por su elaboración, hasta su mantenimiento.
@@ -57,36 +57,61 @@
         </div>
         <div id="estudios">
             <h1>Estudios</h1>
-            <div>
-                <p>He terminado mis estudios secuandarios con un título de <strong>bachiller en ciencias generales.</strong></p>
+            <div id="grupoItems01">
+                <div>
+                    <img src="/Recursos/Imagenes/bachiller.png" alt="icono de bachiller">
+                    <p>He terminado mis estudios secuandarios con un título de <strong>bachiller en ciencias generales.</strong></p>
+                </div>
+                <div>
+                    <img src="/Recursos/Imagenes/epnLogo.png" alt="logo de EPN">
+                    <p>
+                        Por el momento, estoy estudiando <strong>ingeniería en software</strong> en la <strong>Escuela Politénica Nacional.</strong>
+                    </p>
+                </div>
             </div>
-            <div>
-                <p>
-                    Por el momento, estoy estudiando <strong>ingeniería en software</strong> en la <strong>Escuela Politénica Nacional.</strong>
-                </p>
-            </div>
+
         </div>
 
         <div id="experiencia">
             <h1>Experiencia</h1>
-            <div>
-                <p>He tenido la oportunidad de aprender multiples tecnologías</p>
+            <div id="grupoItems02">
+                <div class="tecnologias">
+                    <img src="/Recursos/Imagenes/cMas.png" alt="logo cMasMas">
+                    <img src="/Recursos/Imagenes/java.png" alt="logo java">
+                    <img src="/Recursos/Imagenes/php.png" alt="logo php">
+                    <img src="/Recursos/Imagenes/sql.png" alt="logo sql">
+                </div>
+                <div id="textoExperiencia">
+                    <p>He tenido la oportunidad de aprender multiples tecnologías durante mi camino en mundo del software.</p>
+                    <p>Puedes ver algunos de mis trabajos y participaciones en mi <a href="https://github.com/BryanRosillo" target="_blank">Git Hub</a> </p>
+                    <img src="/Recursos/Imagenes/gitHub.png" alt="logo gitHub">
+                </div>
+                <div class="tecnologias">
+                    <img src="/Recursos/Imagenes/html.png" alt="logo html">
+                    <img src="/Recursos/Imagenes/css.png" alt="logo css">
+                    <img src="/Recursos/Imagenes/javaScript.png" alt="logo javaScript">
+                    <img src="/Recursos/Imagenes/azure.png" alt="logo azure">
+                </div>
             </div>
-            <div>
-                <p>Puedes ver algunos de mis trabajos en mi <strong>Git Hub</strong></p>
-            </div>
+            
         </div>
+
+
         <div id="contacto">
             <h1>Contacto</h1>
+            <p>Si puedo ser de ayuda, puedes contactarme por lo siguientes medios</p>
             <div>
-                <p>Si puedo ser de ayuda, puedes contactarme por lo siguientes medios </p>
+                <a href="mailto:bryanrosillo100@hotmail.com"><img src="/Recursos/Imagenes/outlook.png" alt="logo de outlook"></a>
+                <a href="https://www.facebook.com/profile.php?id=100012860282061" target="_blank"><img src="/Recursos/Imagenes/facebook.png" alt="logo de facebook"></a>
+                <a href="https://wa.me/0997761333" target="_blank"><img src="/Recursos/Imagenes/whatsapp.png" alt="logo de whatsapp"></a>    
             </div>
+            
 
         </div>
     </main>
 
     <footer>
-        <h5>Muchas gracias por visitar esta página</h5>
+        <h5>¡Muchas gracias por visitarme!</h5>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
